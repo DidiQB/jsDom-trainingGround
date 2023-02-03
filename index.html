@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-
-    </script>
-</head>
+        function getCompanyName() {
+            return "SALT";
+        }
+        console.log("salt> In the head.");
+        </script>    
 <body>
+    <script>
+        console.log("salt> Start of the body");
+        </script>
     <main>
         <div>Content 1</div>
         <div>Content 2</div>
         <div>Content 3</div>
     </main>
+    <script>
+        const name = getCompanyName();
+        console.log(`salt> End of body. Company name is ${name}`);
+        
+    </script>
 </body>
 </html>
